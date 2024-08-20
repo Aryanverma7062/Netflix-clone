@@ -1,0 +1,158 @@
+.border
+{
+    border: 2px ;
+    margin: 10px;
+}
+.flex{
+    display: flex;
+}
+.align-items{
+    align-items: center;
+}
+.justify-items{
+    justify-items: center;
+}
+.bg-black{
+    background-color: black;
+    color: white;
+}
+.invert{
+    filter: invert(1);
+}
+.bg-grey{
+    background-color: #121212;
+}
+.rounded{
+    border-radius: 7px;
+}
+.m-1{
+    margin: 10px;
+}
+    .p-1{
+        padding: 10px;
+    }
+    .size{
+        position: relative;
+        top: 4px;
+        height: auto;
+        width: 20px;
+        padding-right: 3px;
+    }
+.footer p{
+    
+    position: absolute;
+    bottom: 23px;
+    display: flex;
+    flex-wrap: wrap;
+    
+    font-size: 10px;
+    
+    gap: 13px;
+    
+}
+.footer a{
+    color: grey;
+    gap: 30px;
+    
+}
+.h2{
+    background-color: rgba(0, 0, 0 ,0.39);
+    padding: 14px;
+    
+}
+.h2 {
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.bg-white{
+    background-color: white;
+}
+.rounded1{
+    border-radius: 42px;
+}
+.size2{
+    position: relative;
+        top: 4px;
+        height: auto;
+        width: 16px;
+        padding-right: 9px;
+}
+.sizeimg img{
+    height: 165px;
+}
+.rounded3 img{
+    border-radius: 116px;
+    margin: 10px;
+}
+img.size3{
+    
+    width: 170px;
+    height: 169px;
+    border-radius:100px;
+    margin: 10px;
+}
+.h3{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 15px;
+    background-color: aqua;
+}
+.round4 img{
+    border-radius: 7px;
+}
+.topic{
+    font-size: 25px;
+    padding-top:  10px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+.size4 img{
+    height:165px;
+}
+.playbtn img{
+  
+    border-radius: 27px;
+    opacity: 0.0; 
+    transition: all is ease-out;
+   
+    left: 119px;
+    top: 119px;
+    height: 43px;
+    width: 44px;
+    
+    position: absolute
+}
+.card :hover{
+    .playbtn img{
+    border-radius: 27px;
+     opacity: 1;
+    transition: all is ease-out;
+   
+    left: 119px;
+    top: 119px;
+    height: 43px;
+    width: 44px;
+    
+    position: absolute
+}}
+.footer1 {
+    bottom: 0px;
+    justify-content: space-between;
+    display: flex;
+    color: white;
+    margin: 10px;
+    
+
+    
+}
+.footer1  a {
+    text-align: justify;
+    color: gray;
+    gap: 5px;
+    
+}
+.footer1 p{
+    column-gap: 10px;
+}

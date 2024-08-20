@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    max-height: 160vh;
+
+}
+
+.left{
+    width: 25vw;
+
+}
+.right{
+    width:75vw;
+}
+.home UL li{
+    display: flex;
+    width: 20px;
+    list-style: none;
+    gap: 15px;
+    padding: 5px;
+   
+}
+.home{
+    margin: 10px;
+    padding: 5px;
+}
+.aryan {
+    color: black;
+   align-content: space-between;
+
+}
+.aryan img{
+    padding-right: 10px;
+}
+.h1{
+    display: flex;
+    justify-content: space-between;
+}
+.library{
+    min-height: 400px;
+    position: relative;
+}
+.btn{
+    
+    font-size: 18px;
+    border: 0px;
+    width: 125px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    color: gray;
+}
+.btn.b{
+    font-size: 19px;
+    padding: 12px;
+    background-color: white;
+    color: black;
+    border-radius: 43px;
+    
+}
+.containerbox{
+    max-height: 70vh;
+    overflow-y: scroll;
+   }   /* For Webkit based browsers (Chrome, Safari, etc.) */
+::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(97, 95, 95, 0.336); /* Color of the thumb */
+}
+
+::-webkit-scrollbar-track {
+    background-color:  rgba(0, 0, 0, 0); /* Color of the track */
+}
+
+    
+
+.card{
+    font-size: 18px;
+    width: 175px;
+    margin: 5px;
+    position: relative;
+}
+.box1{
+    
+    margin-top: 25px;
+    display: flex;
+    margin-bottom: 35px;
+}
+.name{
+    margin-left: 10px;
+    color: white;
+}
+.role{
+    margin-left: 10px;
+    color: gray;
+}
